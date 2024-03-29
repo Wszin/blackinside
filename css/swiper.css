@@ -1,0 +1,39 @@
+swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:700px)
+{
+    swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+}

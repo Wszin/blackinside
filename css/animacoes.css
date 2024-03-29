@@ -1,0 +1,86 @@
+.apresentacao-membro {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.animacao-membro-esquerda{
+    animation: slideFromLeft 2s forwards;
+}
+.animacao-membro-direita {
+    animation: slideFromRight 2s forwards;
+}
+.animacao-membro-meio {
+    animation: slideFromBottom 2s forwards;
+}
+
+.menu-mobile{
+    animation: slideTop 1s forwards;
+}
+
+.close-efeito{
+    animation: slideClose 1s forwards;
+}
+
+@keyframes slideFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideClose {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes arrowMovement {
+    0% {
+        transform: translateX(-7px);
+    }
+    50% {
+        transform: translateX(7px);
+    }
+    100% {
+        transform: translateX(-7px);
+    }
+}
+
+.arrow {
+    animation: arrowMovement 2s infinite;
+}

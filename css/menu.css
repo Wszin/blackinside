@@ -1,0 +1,54 @@
+.menu-mobile{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    padding: 8px;
+}
+
+.menu-none{
+    display: none;
+}
+
+.menu-mobile button{
+    width: 250px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-mobile .logo-e-x{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-mobile .logo-e-x span {
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+}
+
+.menu-mobile .logo-e-x img{
+    width: 80px;
+}
+
+@media screen and (max-width:800px){
+    .menu-mobile ul li{
+        font-size: 15px;
+    }
+}

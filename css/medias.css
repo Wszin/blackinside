@@ -1,0 +1,158 @@
+@media screen and (max-width:900px) {
+    nav .nav-desktop {
+        display: none;
+    }
+
+    nav .space-white {
+        width: 100%;
+    }
+
+    nav .menu,
+    .space-white {
+        display: block !important;
+    }
+
+    nav img {
+        margin-left: 10px;
+    }
+
+    .section-1 {
+        margin-top: 30px;
+    }
+
+    .section-1 .flag {
+        margin-bottom: 10px;
+    }
+
+    .section-1 .abertura-h1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .section-1 .flag img {
+        width: 25px;
+    }
+
+    .section-1 .flag h1 {
+        font-size: 15px;
+    }
+
+    .section-1 p {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .two-buttons {
+        flex-direction: column;
+    }
+
+    .two-buttons .contato {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .card-confronto {
+        width: 99%;
+    }
+
+    .card-confronto .logo-equipe img {
+        width: 80px;
+    }
+
+    .card-confronto .logo-equipe h1{
+        font-size: 15px;
+    }
+
+    .card-confronto .informacoes-confronto h1{
+        font-size: 25px;
+    }
+
+    .card-confronto .informacoes-confronto .nome-freefire {
+        width: 100px;
+        padding: 2px;
+    }
+
+    .card-confronto .informacoes-confronto h2 {
+        font-size: 12px;
+    }
+
+    .card-confronto .informacoes-confronto span {
+        font-size: 8px;
+    }
+
+    .card-confronto .logo-equipe{
+        flex-direction: column;
+    }
+
+    .card-confronto .logo-equipe-1 {
+        display: none;
+    }
+
+    .card-confronto .logo-equipe-2 {
+        display: block !important;
+        text-align: center;
+    }
+}
+
+.card-confronto .logo-equipe-2 {
+    display: none;
+}
+
+
+@media screen and (max-width:800px) {
+    nav img {
+        width: 80px;
+    }
+    .section-1 .abertura-h1{
+        font-size: 20px;
+    }
+
+    .section-1 p {
+        font-size: 15px;
+    }
+
+    .section-1 .two-buttons button{
+        margin: 5px;
+    }
+
+    .section-6 .h1-section-6 h1 {
+        font-size: 25px !important;
+        letter-spacing: 2px;
+    }
+
+    .section-6 .h1-section-6 p {
+        font-size: 15px !important;
+    }
+    .section-7 {
+        margin-bottom: 20px !important;
+    }
+
+    swiper-container {
+        margin-bottom: 20px !important;
+    }
+    swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px !important;
+    }
+    
+}
+
+@media screen and (max-width:520px) {
+    .section-1 {
+        margin-top: 0px;
+    }
+
+    .section-2 {
+        height: 370px;
+    }
+
+    .section-6 .two-buttons-section-6 button{
+        width: 120px;
+        font-size: 8px;
+    }
+}
